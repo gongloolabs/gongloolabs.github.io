@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jama Tafreeq Privacy Policy</title>
 <style>
-  :root { --bg: #ffffff; --text: #1d2430; --muted: #5b6575; --accent: #2389DA; --rule: #e3e8ef; }
+  :root { --bg: #ffffff; --text: #1d2430; --muted: #5b6575; --accent: #2389DA; --rule: #e3e8ef; --box: #f2f7fc; }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #12161c; --text: #e6eaf0; --muted: #a0aabb; --accent: #5aaef0; --rule: #2a313c; }
+    :root { --bg: #12161c; --text: #e6eaf0; --muted: #a0aabb; --accent: #5aaef0; --rule: #2a313c; --box: #1a222c; }
   }
   body { margin: 0; background: var(--bg); color: var(--text);
          font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
@@ -16,66 +16,113 @@
   h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
   p, li { margin: 8px 0; }
   .muted { color: var(--muted); }
+  .summary { background: var(--box); border-radius: 12px; padding: 4px 20px; margin-top: 20px; }
   a { color: var(--accent); }
 </style>
 </head>
 <body>
 <main>
 <h1>Privacy Policy for Jama Tafreeq</h1>
-<p class="muted">Jama Tafreeq: Expense Tracker · Effective 4 October 2026</p>
+<p class="muted">Jama Tafreeq: Expense Tracker · Developer: Gongloo Labs · Effective 4 October 2026</p>
 
-<p>Jama Tafreeq is a personal expense and budget tracker for Android. This policy explains what information the app
-handles and where it goes. In short: <strong>your financial records stay on your phone.</strong> The app has no
-account, no advertising, no analytics, and no permission to use the internet.</p>
+<p>This privacy policy applies to the Android app <strong>Jama Tafreeq: Expense Tracker</strong> ("the app"),
+developed by <strong>Gongloo Labs</strong> ("we", "us"). It explains what information the app handles, where that
+information is kept, and the choices you have.</p>
 
-<h2>Information the app stores</h2>
-<p>Everything you enter is saved only in the app's private storage on your device:</p>
+<div class="summary">
+<p><strong>In short</strong></p>
+<ul>
+  <li>Your financial records are stored only on your phone. We never receive them.</li>
+  <li>The app has no account or sign-in, no advertising and no analytics, and it does not have permission to use
+  the internet, so it cannot send your data anywhere.</li>
+  <li>We do not collect, sell or share your personal information.</li>
+</ul>
+</div>
+
+<h2>1. Information the app stores on your phone</h2>
+<p>Everything you enter is saved in the app's private storage on your device:</p>
 <ul>
   <li>Expenses and income: amount, category, date and the note you type or say.</li>
-  <li>Your categories, their icons and voice keywords.</li>
+  <li>Your categories, their icons, and the voice keywords used to recognise them.</li>
   <li>Budgets and settings, such as your currency, decimal places, voice language and the day your month starts.</li>
 </ul>
-<p>The developer never receives this information. The app does not request the internet permission, so it cannot
-send your data to the developer or to anyone else.</p>
+<p>To suggest new voice keywords, the app looks at the notes of your earlier voice entries. This happens entirely on
+your phone.</p>
+<p>This information is not sent to us or to anyone else by the app. We have no server and no copy of your data.</p>
 
-<h2>Voice input</h2>
+<h2>2. Permissions</h2>
+<p>The app does not request any special permissions. It cannot access the internet, your microphone directly, your
+contacts, location, camera, photos or other files, except a file you choose yourself when exporting or importing a
+backup.</p>
+
+<h2>3. Voice input</h2>
 <p>When you use voice Quick add, the app asks your phone's speech recognition service (on most phones, Google's) to
-turn what you say into text. The app does not record or store audio; it only receives the resulting text, which you
-review before saving. Speech recognition is provided by that service under its own privacy policy, for example
-<a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+turn what you say into text. That service may process your speech on its own servers, under its own privacy policy,
+for example <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. The app itself does not record
+or store audio; it receives only the recognised text, which you review before saving. Voice input is optional: you
+can add every entry by typing instead.</p>
 
-<h2>Assistants such as Gemini</h2>
+<h2>4. Assistants such as Gemini</h2>
 <p>On Android 16 and later, the app can let an assistant on your phone, such as Gemini, add an expense for you or
-list your expense categories, but only when you ask the assistant to. The assistant then sees the details needed for
-that request (for example the amount and note you gave it, and your category names). This is handled by the
-assistant under its own privacy policy. The app does not share anything with an assistant on its own.</p>
+read your list of expense categories, but only when you ask the assistant to do so. For that request, the assistant
+receives the details it needs, such as the amount and note you gave it and your category names and keywords. The
+assistant handles this information under its own privacy policy. The app never shares information with an
+assistant on its own initiative.</p>
 
-<h2>Backups</h2>
+<h2>5. Backups</h2>
 <ul>
-  <li><strong>Export and Import.</strong> You can export all your data to a file and import it later. The file is
-  saved wherever you choose, and only you decide where it goes and who it is shared with.</li>
-  <li><strong>Android backup.</strong> If backup is turned on in your phone's settings, Android may include the app's
-  data in your device backup to your Google account, so it can be restored on a new phone. This is controlled by
-  you in your phone's settings and handled by Google under its own privacy policy.</li>
+  <li><strong>Export and Import.</strong> You can export all of your data to a single backup file and import it
+  later, for example on a new phone. The file is saved where you choose, and you decide who it is shared with.
+  <strong>The backup file is not encrypted and contains all of your financial records</strong>, so keep it somewhere
+  private.</li>
+  <li><strong>Android device backup.</strong> If backup is turned on in your phone's settings, Android may include
+  the app's data in your device backup to your Google account, so it can be restored on a new phone. This is
+  controlled by you in your phone's settings and handled by Google under its own privacy policy.</li>
 </ul>
 
-<h2>Sharing and selling</h2>
-<p>The developer does not collect, sell, rent or share your personal information with anyone.</p>
+<h2>6. Information we receive</h2>
+<ul>
+  <li><strong>From the app:</strong> nothing. The app has no way to send us data.</li>
+  <li><strong>From Google Play:</strong> like all apps on Google Play, we may see anonymous, aggregated statistics
+  that Google Play provides to developers, such as install counts and crash or performance reports (only from users
+  who allow their phone to share usage and diagnostics with Google). These reports do not include your financial
+  records. They are collected by Google, not by the app, under
+  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+  <li><strong>If you email us:</strong> we receive your email address and whatever you write, and use them only to
+  reply to you. We do not add you to any mailing list.</li>
+</ul>
 
-<h2>Deleting your data</h2>
-<p>You can delete any entry in the app at any time. Uninstalling the app deletes all of its data from your phone.
-Exported backup files are separate files you control; delete them like any other file. Device backups can be managed
-in your Google account settings.</p>
+<h2>7. Sharing and selling</h2>
+<p>We do not sell, rent, trade or share your personal information with anyone. The app contains no advertising or
+third-party tracking code.</p>
 
-<h2>Children</h2>
-<p>The app is intended for adults managing their own finances and is not directed at children under 13.</p>
+<h2>8. Security</h2>
+<p>Your data is kept in the app's private storage, which Android protects so that other apps cannot read it, and it
+is covered by your phone's own encryption and screen lock. Because the data never leaves your phone through the app,
+it is not exposed to any server or network. Please protect your phone with a screen lock and keep exported backup
+files private.</p>
 
-<h2>Changes to this policy</h2>
+<h2>9. How long data is kept, and deleting it</h2>
+<p>Your data stays on your phone until you delete it. You can delete any entry or category in the app at any time.
+Uninstalling the app permanently deletes all of its data from your phone. Exported backup files are separate files
+that you control; delete them like any other file. Device backups can be managed in your Google account settings.</p>
+
+<h2>10. Your choices and rights</h2>
+<p>Because we do not hold any of your data, there is nothing for us to access, correct or delete on our side. You
+are always in control of your information on your phone: you can view, change, export or delete it in the app. If
+you have emailed us and want that correspondence deleted, ask and we will delete it.</p>
+
+<h2>11. Children</h2>
+<p>The app is intended for adults managing their own finances and is not directed at children under 13. We do not
+knowingly receive information from children.</p>
+
+<h2>12. Changes to this policy</h2>
 <p>If this policy changes, the updated version will be posted on this page with a new effective date. Significant
 changes will also be mentioned in the app's release notes on Google Play.</p>
 
-<h2>Contact</h2>
-<p>Questions about this policy: <a href="mailto:gongloolabs@gmail.com">gongloolabs@gmail.com</a></p>
+<h2>13. Contact</h2>
+<p>Questions about this policy or the app: Gongloo Labs,
+<a href="mailto:gongloolabs@gmail.com">gongloolabs@gmail.com</a></p>
 </main>
 </body>
 </html>
